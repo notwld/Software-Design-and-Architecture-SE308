@@ -1,6 +1,6 @@
 class PC:
     def __init__(self) -> None:
-        self._details = {}
+        self._details = None
 
     def displayDetails(self):
         return self._details
