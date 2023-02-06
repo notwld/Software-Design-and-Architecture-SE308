@@ -1,0 +1,9 @@
+{
+  "Students": [
+    {"id": 1,"name": "Bajwa","rollno": "20b-017-se"},
+    {"id": 2,"name": "Aun","rollno": "20b-118-se"},
+    {"id": 3,"name": "Huzzu","rollno": "20b-056-se"},
+    {"id": 4,"name": "Haseeb","rollno": "20b-036-se"},
+    {"id": 5,"name": "Farhan","rollno": "20b-055-se"}
+  ]
+}

@@ -1,0 +1,45 @@
+{% extends "_layout.html" %}
+
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="display-1">
+                Students
+        </h1>
+            <a href="/student/add" class="btn btn-primary">Create</a>
+        </div>
+        <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>RollNo</th>
+                <th></th>
+            </tr>
+        </thead>
+
+<tbody>
+    {% for student in data %}
+        <tr>
+            <td>
+                {{student.id}}
+            </td>
+            <td>
+                {{student.name}}
+            </td>
+            <td>
+                {{student.rollno}}
+            </td>
+            <td>
+                <a href="/delete/{{student.id}}" class="btn btn-danger">Delete</a>
+                <a href="/edit/{{student.id}}" class="btn btn-primary">Edit</a>
+            </td>
+        </tr>
+    {% endfor %}
+
+</tbody>
+ </table>
+    </div>
+
+{% endblock %}
