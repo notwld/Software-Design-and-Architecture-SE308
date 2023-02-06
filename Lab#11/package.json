@@ -1,9 +1,23 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "body-parser": "^1.20.1",
     "express": "^4.18.2"
   },
   "devDependencies": {
+=======
+  "name": "node-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+>>>>>>> 84dfc58dcf83922e34a4ec810bc0e09e64962088
     "nodemon": "^2.0.20"
   }
 }
